@@ -1,6 +1,3 @@
-
-
-
 import time
 import serial
 import requests # Untuk API call
@@ -15,7 +12,7 @@ from logging.handlers import TimedRotatingFileHandler
 # --- Konfigurasi Aplikasi RVM ---
 RVM_ID_NAME = "1" # Dapatnya dari mana?
 RVM_NAME = "RVM Kantin Pusat Gedung A" # Dapatnya dari mana?
-RVM_API_KEY = "RVM001-VfAbiZSp29OUXLEhvFaa4Oi7UposHFGW" # GANTI DENGAN YANG VALID
+RVM_API_KEY = "RVM001-TSZ3UvnJZrBotBsWkZtmFMB8PZ7FPP96" # GANTI DENGAN YANG VALID
 BACKEND_API_BASE_URL = "https://precious-puma-smoothly.ngrok-free.app/api" # URL NGROK ANDA
 
 SERIAL_PORT = '/dev/serial0' 
@@ -44,10 +41,53 @@ file_handler = TimedRotatingFileHandler(
     interval=1,      # Interval 1 hari
     backupCount=7    # Simpan 7 file backup
 )
-# Format log: Timestamp - RVM_ID - RVM_NAME - Level - Pesan
-formatter = logging.Formatter(f'%(asctime)s - RVM_ID:{RVM_ID_NAME} - RVM_NAME:{RVM_NAME} - %(levelname)s - %(message)s')
+# --- MODIFIKASI FORMATTER DI SINI ---
+# Format lama:
+# formatter = logging.Formatter(f'%(asctime)s - RVM_ID:{RVM_ID_FROM_CONFIG} - RVM_NAME:{RVM_NAME_FROM_CONFIG} - %(levelname)s - %(message)s')
+
+# Format baru yang Anda inginkan: [DD Month YYYY HH:MM] LEVEL: Message
+# Untuk nama bulan, kita bisa menggunakan '%d %b %Y %H:%M' (misal: 10 May 2025 17:58)
+# atau '%d %B %Y %H:%M' (misal: 10 May 2025 17:58)
+# Kita akan gunakan '%d %b %Y %H:%M' untuk nama bulan singkat (May, Jun, Jul)
+# atau jika ingin nama bulan penuh: '%d %B %Y %H:%M'
+
+# Format string untuk formatter:
+# %(asctime)s akan digantikan dengan waktu. Kita perlu mengatur format waktu asctime.
+# Sayangnya, logging.Formatter tidak secara langsung mengubah format asctime menjadi nama bulan.
+# Cara termudah adalah menggunakan format numerik atau membuat custom Formatter.
+
+# Opsi 1: Menggunakan format tanggal numerik yang lebih pendek dengan asctime standar
+# formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+# Hasil: [2025-05-10 17:58:00] INFO: Pesan log
+
+# Opsi 2: Format yang paling mendekati permintaan Anda dengan asctime standar (tanpa nama bulan teks)
+# formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s', datefmt='%d/%m/%Y %H:%M')
+# Hasil: [10/05/2025 17:58] INFO: Pesan log
+
+# Opsi 3: Untuk mendapatkan format [10 May 2025 17:58] LEVEL: Pesan,
+# kita perlu sedikit trik atau custom formatter. Cara paling mudah adalah dengan
+# sedikit memodifikasi apa yang kita log sebagai 'message' jika kita tidak mau membuat custom Formatter.
+# Alternatifnya, kita buat custom Formatter:
+
+class CustomFormatter(logging.Formatter):
+    def formatTime(self, record, datefmt=None):
+        dt = datetime.fromtimestamp(record.created)
+        if datefmt:
+            s = dt.strftime(datefmt)
+        else:
+            # Format yang Anda inginkan: [10 May 2025 17:58]
+            s = dt.strftime("%d %b %Y %H:%M") 
+        return s
+# Gunakan CustomFormatter
+# Formatnya akan menjadi: [WaktuKustom] LEVELNAME: message
+formatter = CustomFormatter('[%(asctime)s] %(levelname)s: %(message)s', datefmt='%d %b %Y %H:%M')
+# datefmt di sini akan diteruskan ke metode formatTime di CustomFormatter kita
 file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
+logger.addHandler(file_handler)    
+# Format log: Timestamp - RVM_ID - RVM_NAME - Level - Pesan
+# formatter = logging.Formatter(f'%(asctime)s - %(levelname)s - %(message)s')
+# file_handler.setFormatter(formatter)
+# logger.addHandler(file_handler)
 
 # (Opsional) Handler untuk konsol (untuk debugging langsung)
 console_handler = logging.StreamHandler()

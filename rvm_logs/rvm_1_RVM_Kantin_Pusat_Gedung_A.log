@@ -1,0 +1,142 @@
+2025-05-10 11:34:13,284 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ================ RVM BLACKBOX SESSION START ================
+2025-05-10 11:34:13,284 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - RVM ID: 1, RVM Name: RVM Kantin Pusat Gedung A
+2025-05-10 11:34:13,285 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - SERIAL: Terhubung ke /dev/serial0 pada baudrate 115200
+2025-05-10 11:34:15,288 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - SERIAL: Koneksi serial siap.
+2025-05-10 11:34:15,288 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Mencoba menginisialisasi kamera pada indeks 0...
+2025-05-10 11:34:16,553 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Kamera pada indeks 0 berhasil dibuka.
+2025-05-10 11:34:16,554 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:34:16,555 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:34:16,829 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:34:16,830 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:34:32,046 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:34:32,047 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:34:32,171 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:34:32,173 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:34:47,390 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:34:47,390 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:34:47,834 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:34:47,835 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:35:03,051 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:35:03,052 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:35:03,156 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:35:03,157 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:35:18,373 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:35:18,374 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:35:18,497 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:35:18,498 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:35:33,714 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:35:33,714 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:35:49,366 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 503 Server Error: Service Unavailable for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:35:49,366 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:36:04,583 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:36:04,585 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:36:05,027 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:36:05,029 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:36:20,245 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:36:20,245 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:36:20,361 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:36:20,361 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:36:35,577 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:36:35,578 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:36:35,688 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:36:35,689 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:36:50,905 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:36:50,906 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:36:51,032 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 404 Client Error: Not Found for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:36:51,034 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:37:06,245 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:37:06,246 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:37:07,096 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:37:07,097 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:37:22,314 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:37:22,315 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:37:22,648 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:37:22,651 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:37:37,868 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:37:37,869 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:37:38,196 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:37:38,199 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:37:53,416 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:37:53,417 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:37:53,708 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:37:53,709 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:38:08,926 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:38:08,926 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:38:09,688 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:38:09,689 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:38:24,903 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:38:24,904 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:38:25,219 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+2025-05-10 11:38:25,221 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API: Gagal otentikasi RVM. Detail: No response
+2025-05-10 11:38:35,791 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ================ RVM BLACKBOX SESSION START ================
+2025-05-10 11:38:35,791 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - RVM ID: 1, RVM Name: RVM Kantin Pusat Gedung A
+2025-05-10 11:38:35,793 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - SERIAL: Terhubung ke /dev/serial0 pada baudrate 115200
+2025-05-10 11:38:37,795 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - SERIAL: Koneksi serial siap.
+2025-05-10 11:38:37,795 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Mencoba menginisialisasi kamera pada indeks 0...
+2025-05-10 11:38:39,061 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Kamera pada indeks 0 berhasil dibuka.
+2025-05-10 11:38:39,061 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:38:39,062 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:38:39,396 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: RVM (ID Config: 1, ID API: 1) berhasil terotentikasi.
+2025-05-10 11:38:41,211 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STARTUP: ESP32 terhubung dan merespons PING.
+2025-05-10 11:38:41,411 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: IDLE. Menunggu aksi pengguna.
+2025-05-10 11:38:48,521 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ACTION: Pengguna memilih 'item' (deposit tamu).
+2025-05-10 11:38:49,666 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Gambar berhasil diambil dan disimpan ke captured_images/item_capture_20250510_113849.jpg
+2025-05-10 11:38:50,640 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - HTTP error: 500 Server Error: Internal Server Error for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - Response: No response body
+2025-05-10 11:39:01,053 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:39:01,054 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:39:01,382 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: RVM (ID Config: 1, ID API: 1) berhasil terotentikasi.
+2025-05-10 11:39:03,212 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STARTUP: ESP32 terhubung dan merespons PING.
+2025-05-10 11:39:03,413 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: IDLE. Menunggu aksi pengguna.
+2025-05-10 11:39:45,334 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ACTION: Pengguna memilih 'item' (deposit tamu).
+2025-05-10 11:39:46,057 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Gambar berhasil diambil dan disimpan ke captured_images/item_capture_20250510_113946.jpg
+2025-05-10 11:39:46,792 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - HTTP error: 500 Server Error: Internal Server Error for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - Response: No response body
+2025-05-10 11:39:57,205 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:39:57,205 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:39:57,494 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: RVM (ID Config: 1, ID API: 1) berhasil terotentikasi.
+2025-05-10 11:39:59,320 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STARTUP: ESP32 terhubung dan merespons PING.
+2025-05-10 11:39:59,521 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: IDLE. Menunggu aksi pengguna.
+2025-05-10 11:40:06,966 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ACTION: Pengguna memilih 'qr'.
+2025-05-10 11:41:50,087 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - CAMERA: Gambar berhasil diambil dan disimpan ke captured_images/item_capture_20250510_114150.jpg
+2025-05-10 11:41:50,772 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - ERROR - API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - HTTP error: 500 Server Error: Internal Server Error for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/deposit - Response: No response body
+2025-05-10 11:42:01,184 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: Memasuki STARTUP
+2025-05-10 11:42:01,185 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: Mencoba otentikasi RVM dengan backend...
+2025-05-10 11:42:01,504 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - API: RVM (ID Config: 1, ID API: 1) berhasil terotentikasi.
+2025-05-10 11:42:03,343 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STARTUP: ESP32 terhubung dan merespons PING.
+2025-05-10 11:42:03,543 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - STATE: IDLE. Menunggu aksi pengguna.
+2025-05-10 11:42:11,682 - RVM_ID:1 - RVM_NAME:RVM Kantin Pusat Gedung A - INFO - ACTION: Pengguna memilih 'exit'. Menghentikan aplikasi.
+[10 May 2025 12:23] INFO: ================ RVM BLACKBOX SESSION START ================
+[10 May 2025 12:23] INFO: RVM ID: 1, RVM Name: RVM Kantin Pusat Gedung A
+[10 May 2025 12:23] INFO: SERIAL: Terhubung ke /dev/serial0 pada baudrate 115200
+[10 May 2025 12:23] INFO: SERIAL: Koneksi serial siap.
+[10 May 2025 12:23] INFO: CAMERA: Mencoba menginisialisasi kamera pada indeks 0...
+[10 May 2025 12:23] INFO: CAMERA: Kamera pada indeks 0 berhasil dibuka.
+[10 May 2025 12:23] INFO: STATE: Memasuki STARTUP
+[10 May 2025 12:23] INFO: API: Mencoba otentikasi RVM dengan backend...
+[10 May 2025 12:23] ERROR: API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+[10 May 2025 12:23] ERROR: API: Gagal otentikasi RVM. Detail: No response
+[10 May 2025 12:23] INFO: STATE: Memasuki STARTUP
+[10 May 2025 12:23] INFO: API: Mencoba otentikasi RVM dengan backend...
+[10 May 2025 12:23] ERROR: API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+[10 May 2025 12:23] ERROR: API: Gagal otentikasi RVM. Detail: No response
+[10 May 2025 12:24] INFO: STATE: Memasuki STARTUP
+[10 May 2025 12:24] INFO: API: Mencoba otentikasi RVM dengan backend...
+[10 May 2025 12:24] ERROR: API CALL FAIL (HTTP): POST https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - HTTP error: 401 Client Error: Unauthorized for url: https://precious-puma-smoothly.ngrok-free.app/api/rvm/authenticate - Response: No response body
+[10 May 2025 12:24] ERROR: API: Gagal otentikasi RVM. Detail: No response
+[10 May 2025 12:24] INFO: ================ RVM BLACKBOX SESSION START ================
+[10 May 2025 12:24] INFO: RVM ID: 1, RVM Name: RVM Kantin Pusat Gedung A
+[10 May 2025 12:24] INFO: SERIAL: Terhubung ke /dev/serial0 pada baudrate 115200
+[10 May 2025 12:24] INFO: SERIAL: Koneksi serial siap.
+[10 May 2025 12:24] INFO: CAMERA: Mencoba menginisialisasi kamera pada indeks 0...
+[10 May 2025 12:24] INFO: CAMERA: Kamera pada indeks 0 berhasil dibuka.
+[10 May 2025 12:24] INFO: STATE: Memasuki STARTUP
+[10 May 2025 12:24] INFO: API: Mencoba otentikasi RVM dengan backend...
+[10 May 2025 12:24] INFO: API: RVM (ID Config: 1, ID API: 1) berhasil terotentikasi.
+[10 May 2025 12:24] INFO: STARTUP: ESP32 terhubung dan merespons PING.
+[10 May 2025 12:24] INFO: STATE: IDLE. Menunggu aksi pengguna.
+[10 May 2025 12:24] INFO: ACTION: Pengguna memilih 'item' (deposit tamu).
+[10 May 2025 12:24] INFO: CAMERA: Gambar berhasil diambil dan disimpan ke captured_images/item_capture_20250510_122435.jpg
+[10 May 2025 12:24] INFO: STATE: IDLE. Menunggu aksi pengguna.
+[10 May 2025 12:24] INFO: ACTION: Pengguna memilih 'qr'.
+[10 May 2025 12:25] INFO: CAMERA: Gambar berhasil diambil dan disimpan ke captured_images/item_capture_20250510_122522.jpg
+[10 May 2025 12:25] INFO: STATE: IDLE. Menunggu aksi pengguna.
+[10 May 2025 12:25] INFO: ACTION: Pengguna memilih 'exit'. Menghentikan aplikasi.
